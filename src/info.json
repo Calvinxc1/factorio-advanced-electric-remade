@@ -1,11 +1,10 @@
 {
-  "name": "Advanced_Electric",
-  "version": "2.0.0",
+  "name": "advanced-electric-remade",
+  "version": "0.0.2",
   "factorio_version": "2.0",
-  "title": "Advanced Electric",
+  "title": "Advanced Electric - Remade",
   "author": "Jason M. Cherry",
   "contact": "",
-  "homepage": "https://github.com/ImpossibleBananaLabs/Factorio-Advanced-Electric",
-  "description": "Adds additional ranks of boilers, steam engines, steam turbines, power poles, nuclear reactors, and adds primary load versions of steam engines and turbines.",
+  "description": "Remake of dwinks original Advanced Electric mod - Adds additional ranks of boilers, steam engines, steam turbines, power poles, nuclear reactors, and adds primary load versions of steam engines and turbines.",
   "dependencies": ["base >= 2.0.0"]
 }

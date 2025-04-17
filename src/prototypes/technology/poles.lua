@@ -3,7 +3,9 @@ wooden_poles_2.name = "small-electric-pole-2"
 wooden_poles_2.effects = {{}}
 wooden_poles_2.effects[1].type = "unlock-recipe"
 wooden_poles_2.effects[1].recipe = "small-electric-pole-2"
-wooden_poles_2.prerequisites[1] = "electronics"
+wooden_poles_2.prerequisites = {
+    "logistic-science-pack",
+}
 wooden_poles_2.unit.count = 50
 wooden_poles_2.unit.ingredients = {
     {"automation-science-pack", 1},
