@@ -1,9 +1,9 @@
-data.raw["generator"]["steam-engine"].icon = nil
-data.raw["generator"]["steam-engine"].icons = secondary_steam_engine_icons 
-data.raw["generator"]["steam-engine"].horizontal_animation.layers[1].tint = secondary_entity_tint
-data.raw["generator"]["steam-engine"].horizontal_animation.layers[2].tint = secondary_entity_tint
-data.raw["generator"]["steam-engine"].vertical_animation.layers[1].tint = secondary_entity_tint
-data.raw["generator"]["steam-engine"].vertical_animation.layers[2].tint = secondary_entity_tint
+--data.raw["generator"]["steam-engine"].icon = nil
+--data.raw["generator"]["steam-engine"].icons = secondary_steam_engine_icons 
+--data.raw["generator"]["steam-engine"].horizontal_animation.layers[1].tint = secondary_entity_tint
+--data.raw["generator"]["steam-engine"].horizontal_animation.layers[2].tint = secondary_entity_tint
+--data.raw["generator"]["steam-engine"].vertical_animation.layers[1].tint = secondary_entity_tint
+--data.raw["generator"]["steam-engine"].vertical_animation.layers[2].tint = secondary_entity_tint
 
 --Secondary Load Engines
 local steam_engine_mk2 = util.table.deepcopy(data.raw["generator"]["steam-engine"])
