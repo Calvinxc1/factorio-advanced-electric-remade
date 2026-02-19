@@ -15,7 +15,7 @@ boiler_mk3.name = "advanced-electric-boiler-3"
 boiler_mk3.enabled = false
 boiler_mk3.ingredients = {
   { type = "item", name = "advanced-electric-boiler-2", amount = 1 },
-  { type = "item", name = "electronic-circuit", amount = 5 },
+  { type = "item", name = "advanced-circuit", amount = 5 },
   { type = "item", name = "steel-plate", amount = 5 },
 }
 boiler_mk3.results = {

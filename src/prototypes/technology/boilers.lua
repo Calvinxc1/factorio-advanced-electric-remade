@@ -5,6 +5,7 @@ boiler_mk2.icon = "__base__/graphics/icons/boiler.png"
 boiler_mk2.icon_size = 32
 boiler_mk2.prerequisites = {
   "advanced-material-processing",
+  "chemical-science-pack",
 }
 boiler_mk2.effects = {
   { type = "unlock-recipe", recipe = "advanced-electric-boiler-2" },
@@ -13,6 +14,7 @@ boiler_mk2.unit.count = 50
 boiler_mk2.unit.ingredients = {
   {"automation-science-pack", 1},
   {"logistic-science-pack", 1},
+  {"chemical-science-pack", 1},
 }
 boiler_mk2.unit.time = 30
 boiler_mk2.upgrade = true
@@ -26,6 +28,9 @@ boiler_mk3.icon_size = 32
 boiler_mk3.prerequisites = {
   "advanced-electric-boiler-1",
   "electric-energy-distribution-1",
+  "advanced-circuit",
+  "chemical-science-pack",
+  "space-science-pack",
 }
 boiler_mk3.effects = {
   { type = "unlock-recipe", recipe = "advanced-electric-boiler-3" },
@@ -34,6 +39,8 @@ boiler_mk3.unit.count = 50
 boiler_mk3.unit.ingredients = {
   {"automation-science-pack", 1},
   {"logistic-science-pack", 1},
+  {"chemical-science-pack", 1},
+  {"space-science-pack", 1},
 }
 boiler_mk3.unit.time = 30
 boiler_mk3.upgrade = true
@@ -47,6 +54,7 @@ boiler_mk4.icon_size = 32
 boiler_mk4.prerequisites = {
   "advanced-electric-boiler-2",
   "advanced-circuit",
+  "electromagnetic-science-pack",
 }
 boiler_mk4.effects = {
   { type = "unlock-recipe", recipe = "advanced-electric-boiler-4" },
@@ -56,6 +64,8 @@ boiler_mk4.unit.ingredients = {
   {"automation-science-pack", 1},
   {"logistic-science-pack", 1},
   {"chemical-science-pack", 1},
+  {"space-science-pack", 1},
+  {"electromagnetic-science-pack", 1},
 }
 boiler_mk4.unit.time = 30
 boiler_mk4.upgrade = true
